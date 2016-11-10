@@ -55,6 +55,7 @@
             this.lblQuantity.Size = new System.Drawing.Size(65, 16);
             this.lblQuantity.TabIndex = 1;
             this.lblQuantity.Text = "Quantity : ";
+            this.lblQuantity.Click += new System.EventHandler(this.lblQuantity_Click);
             // 
             // lblItemNumber
             // 
@@ -123,6 +124,7 @@
             this.Controls.Add(this.txtQuantity);
             this.Name = "frmAddInventory";
             this.Text = "frmAddInventory";
+            this.Load += new System.EventHandler(this.frmAddInventory_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

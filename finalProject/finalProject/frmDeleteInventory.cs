@@ -16,5 +16,10 @@ namespace finalProject
         {
             InitializeComponent();
         }
+
+        private void lblItemNumber_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

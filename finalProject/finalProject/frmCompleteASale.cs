@@ -16,5 +16,20 @@ namespace finalProject
         {
             InitializeComponent();
         }
+
+        private void lblQuantity_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblItemNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmCompleteASale_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

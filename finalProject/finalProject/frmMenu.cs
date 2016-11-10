@@ -16,5 +16,10 @@ namespace finalProject
         {
             InitializeComponent();
         }
+
+        private void btnMenuAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

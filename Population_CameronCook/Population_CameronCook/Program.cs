@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace finalProject
+namespace Population_CameronCook
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace finalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formLogin());
+            Application.Run(new Form1());
         }
     }
 }
