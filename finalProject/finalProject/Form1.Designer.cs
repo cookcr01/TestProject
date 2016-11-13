@@ -34,7 +34,10 @@
             this.txtBoxPass = new System.Windows.Forms.TextBox();
             this.grpBoxLogin = new System.Windows.Forms.GroupBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.statLbl2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.grpBoxLogin.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblUserName
@@ -92,18 +95,40 @@
             this.btnSubmit.TabIndex = 4;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statLbl2});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 197);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(286, 22);
+            this.statusStrip1.TabIndex = 5;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // statLbl2
+            // 
+            this.statLbl2.Name = "statLbl2";
+            this.statLbl2.Size = new System.Drawing.Size(118, 17);
+            this.statLbl2.Text = "toolStripStatusLabel1";
             // 
             // formLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(286, 219);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.grpBoxLogin);
             this.Name = "formLogin";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.formLogin_Load);
             this.grpBoxLogin.ResumeLayout(false);
             this.grpBoxLogin.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -115,6 +140,8 @@
         private System.Windows.Forms.TextBox txtBoxPass;
         private System.Windows.Forms.GroupBox grpBoxLogin;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel statLbl2;
     }
 }
 
