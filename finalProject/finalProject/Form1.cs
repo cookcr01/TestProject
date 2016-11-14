@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+struct Account
+{
+    String username;
+    String password;
+}
 
 namespace finalProject
 {
     public partial class formLogin : Form
     {
+
+        List<Account> accounts = new List<Account>();
         public formLogin()
         {
             InitializeComponent();
