@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-struct Account
-{
-    String username;
-    String password;
-}
+
 
 namespace finalProject
 {
     public partial class formLogin : Form
     {
+       public struct Account
+        {
+            String username;
+            String password;
+        }
 
         List<Account> accounts = new List<Account>();
         public formLogin()
@@ -118,7 +119,7 @@ namespace finalProject
             }
             for (int i = 0; i < accounts.Count; i++)
             {
-                if (txtBoxUser.Text == accounts[i].name && logPassTxtBox.Text == accounts[i].Password)
+                if (txtBoxUser.Text == accounts[i].username && logPassTxtBox.Text == accounts[i].Password)
                 {
                     statLbl2.Text = "Welcome to the system: " + logUserTxtBox.Text;
                     break;

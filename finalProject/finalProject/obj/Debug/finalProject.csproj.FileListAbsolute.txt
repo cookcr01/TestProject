@@ -1,1 +1,9 @@
 C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\bin\Debug\finalProject.exe.config
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.csprojResolveAssemblyReference.cache
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.formLogin.resources
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.frmAddInventory.resources
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.frmCompleteASale.resources
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.frmDeleteInventory.resources
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.frmMenu.resources
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.Properties.Resources.resources
+C:\Users\Cameron\Desktop\TestProject\finalProject\finalProject\obj\Debug\finalProject.csproj.GenerateResource.Cache
