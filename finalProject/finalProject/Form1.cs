@@ -108,7 +108,7 @@ namespace finalProject
 
         private void logBtn_Click(object sender, EventArgs e)
         {
-
+           //hello parker
             if (txtBoxUser.Text == "")
             {
                 statLbl2.Text = "no username entered";
